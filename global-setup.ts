@@ -8,7 +8,7 @@ export default async function globalSetup() {
         console.log('✅ Running in CI environment');
     }
 
-    if (!process.env.URL) {
-        throw new Error('❌ Missing required environment variable: URL');
+    if (!process.env.SERVICE_URL) {
+        throw new Error('❌ Missing required environment variable: SERVICE_URL');
     }
 }
