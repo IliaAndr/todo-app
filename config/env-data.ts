@@ -16,4 +16,4 @@ required.forEach((varName) => {
     }
 })
 */
-export const SERVICE_URL: string = process.env.URL!
+export const SERVICE_URL: string = process.env.SERVICE_URL!
